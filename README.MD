@@ -17,36 +17,4 @@ In this module you learn to setup your .net Core 3 WebAPI project and configure 
 
 ### LogFile Output:
 
-
-```json
-    {
-        "date": "2021-04-14T06:52:40.5639598-04:00",
-        "temperatureC": 20,
-        "temperatureF": 67,
-        "summary": "Cool"
-    },
-    {
-        "date": "2021-04-15T06:52:40.5671044-04:00",
-        "temperatureC": 24,
-        "temperatureF": 75,
-        "summary": "Freezing"
-    },
-    {
-        "date": "2021-04-16T06:52:40.5671115-04:00",
-        "temperatureC": -19,
-        "temperatureF": -2,
-        "summary": "Bracing"
-    },
-    {
-        "date": "2021-04-17T06:52:40.567118-04:00",
-        "temperatureC": 14,
-        "temperatureF": 57,
-        "summary": "Mild"
-    },
-    {
-        "date": "2021-04-18T06:52:40.5671184-04:00",
-        "temperatureC": -1,
-        "temperatureF": 31,
-        "summary": "Cool"
-    }
-    ```
+![LogFile](https://user-images.githubusercontent.com/48297915/116975856-46e9e800-ac8e-11eb-855b-0299f194199e.PNG)
