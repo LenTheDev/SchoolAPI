@@ -13,7 +13,7 @@ In this module you learn to setup your .net Core 3 WebAPI project and configure 
 ## Documentation Links: 
 * [Module 1](https://github.com/LenTheDev/Module-1-IS421.git)
 * [Module 2](https://github.com/LenTheDev/Module-2-IS421.git)
-* [Module 3](https://github.com/LentheDev/Module-3IS4221.git)
+* [Module 3](https://github.com/LenTheDev/Module-3-IS421)
 
 ### Postman Output:
 
