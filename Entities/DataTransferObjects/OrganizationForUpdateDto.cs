@@ -17,4 +17,6 @@ namespace Entities.DataTransferObjects
 
         [Required(ErrorMessage = "Country is a required field.")]
         public string Country { get; set; }
+    }
+}
   
