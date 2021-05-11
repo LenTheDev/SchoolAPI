@@ -1,4 +1,5 @@
-﻿using AutoMapper;
+﻿
+using AutoMapper;
 using Contracts;
 using Entities.DataTransferObjects;
 using Entities.Models;
@@ -10,6 +11,7 @@ namespace CompanyEmployees.Controllers
 {
     [Route("api/v1/users")]
     [ApiController]
+    [ApiExplorerSettings(GroupName = "v1")]
     public class UserController : ControllerBase
     {
         private readonly IRepositoryManager _repository;
