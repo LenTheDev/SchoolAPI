@@ -1,10 +1,12 @@
-﻿using System;
+﻿using Entities.Models;
+using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace Contracts
 {
     public interface IUserRepository
     {
+        IEnumerable<User> GetAllUsers(bool trackChanges);
+        User GetUser(Guid Id, bool trackChanges);
     }
 }
