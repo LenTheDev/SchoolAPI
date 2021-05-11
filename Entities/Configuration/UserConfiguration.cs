@@ -17,7 +17,7 @@ namespace Entities.Configuration
                     UserName = "kwilliams",
                     FirstName = "Keith",
                     LastName = "Williams",
-                    OrganizationId = new Guid("c9d4c053-49b6-410c-bc78-2d54a9991870")
+                    //OrganizationId = new Guid("c9d4c053-49b6-410c-bc78-2d54a9991870")
                 },
                 new User
                 {
@@ -25,7 +25,7 @@ namespace Entities.Configuration
                     UserName = "ka393939",
                     FirstName = "Keith",
                     LastName = "Williams",
-                    OrganizationId = new Guid("c9d4c053-49b6-410c-bc78-2d54a9991870")
+                    //OrganizationId = new Guid("c9d4c053-49b6-410c-bc78-2d54a9991870")
                 },
                  new User
                  {
@@ -33,7 +33,7 @@ namespace Entities.Configuration
                      UserName = "kaw3939",
                      FirstName = "Keith",
                      LastName = "Williams",
-                     OrganizationId = new Guid("3d490a70-94ce-4d15-9494-5248280c2ce3")
+                    //OrganizationId = new Guid("3d490a70-94ce-4d15-9494-5248280c2ce3")
                  },
                  new User
                  {
@@ -41,7 +41,7 @@ namespace Entities.Configuration
                      UserName = "len8",
                      FirstName = "len",
                      LastName = "lew",
-                     OrganizationId = new Guid("3d490a70-94ce-4d15-9494-5248280c2ce3")
+                     //OrganizationId = new Guid("3d490a70-94ce-4d15-9494-5248280c2ce3")
                  }
             );
         }
