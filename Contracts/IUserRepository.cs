@@ -4,9 +4,16 @@ using System.Collections.Generic;
 
 namespace Contracts
 {
-    public interface IUserRepository
+    public interface IOrganizationRepository
     {
-        IEnumerable<User> GetAllUsers(bool trackChanges);
-        User GetUser(Guid Id, bool trackChanges);
+        IEnumerable<Organization> GetAllOrganizations(bool trackChanges);
+
+        Organization GetOrganization(Guid companyId, bool trackChanges);
+
+        void CreateOrganization(Organization organization);
+
+        IEnumerable<Organization> GetByIds(IEnumerable<Guid> ids, bool trackChanges);
+
+        void DeleteOrganization(Organization organization);
     }
 }
