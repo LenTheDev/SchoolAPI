@@ -28,9 +28,9 @@ namespace CompanyEmployees.Controllers
             try
             {
                 var organizations = _repository.Organization.GetAllOrganizations(trackChanges: false);
-                return Ok(organizations);
-                /*var organizationDto = _mapper.Map<IEnumerable<OrganizationDto>>(organizations);
-                return Ok(organizationDto);*/
+                //return Ok(organizations);
+                var organizationDto = _mapper.Map<IEnumerable<OrganizationDto>>(organizations);
+                return Ok(organizationDto);
 
             }
             catch (Exception ex)
