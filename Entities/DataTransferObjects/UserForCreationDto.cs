@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
+//DTO
 namespace Entities.DataTransferObjects
 {
     public class UserForCreationDto
