@@ -5,9 +5,12 @@ namespace Repository
 {
     public class RepositoryManager : IRepositoryManager
     {
+        //Repositories 
         private RepositoryContext _repositoryContext;
         private IOrganizationRepository _organizationRepository;
         private IUserRepository _userRepository;
+   
+    
 
         public RepositoryManager(RepositoryContext repositoryContext)
         {
@@ -25,6 +28,7 @@ namespace Repository
             }
         }
 
+        //User
         public IUserRepository User
         {
             get
@@ -35,6 +39,7 @@ namespace Repository
                 return _userRepository;
             }
         }
+        
 
         public void Save() => _repositoryContext.SaveChanges();
     }

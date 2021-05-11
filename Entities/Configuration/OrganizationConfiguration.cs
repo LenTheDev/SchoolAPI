@@ -20,6 +20,11 @@ namespace Entities.Configuration
                 {
                     Id = new Guid("3d490a70-94ce-4d15-9494-5248280c2ce3"),
                     OrgName = "lmnop org",
+                },
+                new Organization
+                {
+                    Id = new Guid("3d490a70-94ce-4d15-9494-5248280c2ce4"),
+                    OrgName = "lens org",
                 }
             );
         }

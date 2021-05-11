@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Contracts
 {
-    public interface IUserRepository
+    public interface ISectionRepository
     {
     }
 }

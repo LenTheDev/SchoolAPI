@@ -5,9 +5,11 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\Contracts\Contracts.csproj" />
-		<ProjectReference Include="..\Entities\Entities.csproj" />
-		<ProjectReference Include="..\LoggerManager\LoggerService.csproj" />
+		<PackageReference Include="NLog" Version="4.7.2" />
 	</ItemGroup>
 
+	<ItemGroup>
+		<ProjectReference Include="..\Contracts\Contracts.csproj" />
+		<ProjectReference Include="..\Entities\Entities.csproj" />
+	</ItemGroup>
 </Project>
